@@ -406,7 +406,7 @@
                                     <Items>
                                         <ext:TextField runat="server" ID="txtModeloGW" FieldLabel="Model" AnchorHorizontal="92%" />
                                         <ext:TextField runat="server" ID="txtMarcaGW" FieldLabel="Brand" AnchorHorizontal="92%" />
-                                        <ext:TextField runat="server" ID="txtPuertoGW" FieldLabel="Brand" AnchorHorizontal="92%" />
+                                        <ext:TextField runat="server" ID="txtPuertoGW" FieldLabel="Port" AnchorHorizontal="92%" />
 
                                     </Items>
                                 </ext:Panel>
