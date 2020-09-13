@@ -20,7 +20,6 @@ namespace Devf
         {
 
         }
-
         public void Save_Contador(object sender, EventArgs e)
         {
             DataClasses1DataContext contador = new DataClasses1DataContext();

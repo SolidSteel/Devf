@@ -1,23 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="~/WebForm1.aspx.cs" Inherits="Devf.WebForm1" %>
 
 <%@ Import Namespace="System.Collections.Generic" %>
-
 <%@ Import Namespace="System.Xml.Xsl" %>
 <%@ Import Namespace="System.Xml" %>
 <%@ Import Namespace="System.Linq" %>
 
-
-
 <!DOCTYPE html>
 
-
-
-<script type="text/javascript">
-    var ExportYap = function () {
-        // Ext.net.Mask.show();
-        //Ext.net.Mask.hide.defer(500);
-    };
-</script>
 
 <html>
 <head runat="server">
@@ -44,19 +33,6 @@
             border-bottom-width: 0px;
         }
     </style>
-
-    <script>
-        var fullName = function (value, metadata, record, rowIndex, colIndex, store) {
-            return "<b>" + record.data.LastName + " " + record.data.FirstName + "</b>";
-        };
-
-
-
-
-
-    </script>
-
-
 
 </head>
 <body>
@@ -205,16 +181,11 @@
                 </ext:Panel>
 
             </Items>
-
-
-
         </ext:Container>
 
 
         <ext:Container runat="server" Layout="HBoxLayout">
             <Items>
-
-
                 <ext:GridPanel
                     runat="server"
                     ID="GridPanel2"
@@ -323,10 +294,8 @@
         </ext:Container>
 
 
-                <ext:Container runat="server" Layout="HBoxLayout">
+        <ext:Container runat="server" Layout="HBoxLayout">
             <Items>
-
-
                 <ext:GridPanel
                     runat="server"
                     ID="GridPanel3"
@@ -436,12 +405,7 @@
                 </ext:Panel>
 
             </Items>
-
-
-
         </ext:Container>
-
-
     </form>
 </body>
 </html>
