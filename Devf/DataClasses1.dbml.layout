@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="2df4ddff-c214-4ee1-98ad-66cf83db590c" absoluteBounds="7.375, 0.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/TContadoresAgua" />
+      <nestedChildShapes>
+        <elementListCompartment Id="457b0ded-6408-4765-9645-9d085d5eac3c" absoluteBounds="7.39, 1.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="02f8bead-ab88-40a5-b9d1-87158316868b" absoluteBounds="7.625, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/TContadoresLuz" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5101ea14-3531-45bc-a825-3c9b1af891a9" absoluteBounds="7.64, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b5b9f561-54d0-4286-8404-55c7517ce44b" absoluteBounds="3, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataClasses1DataContext/TGateways" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8483e0dd-8e72-47f3-8d90-3df3ff11cb5d" absoluteBounds="3.0149999999999997, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

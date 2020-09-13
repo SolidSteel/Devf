@@ -1,0 +1,7 @@
+CREATE TABLE [dbo].[TContadoresLuz]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [SerialNumber] INT NOT NULL, 
+    [Marca] NVARCHAR(50) NULL, 
+    [Modelo] NVARCHAR(50) NULL
+)

@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[TContadoresAgua] (
+    [Id]      INT           NOT NULL,
+    [SerialN] INT           NOT NULL,
+    [Marca]   NVARCHAR (50) NULL,
+    [Modelo]  NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

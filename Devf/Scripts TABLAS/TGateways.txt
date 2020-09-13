@@ -1,0 +1,9 @@
+CREATE TABLE [dbo].[TGateways]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [SerialNumber] INT NOT NULL, 
+    [Marca] NVARCHAR(50) NULL, 
+    [Modelo] NVARCHAR(50) NULL, 
+    [IP] NVARCHAR(50) NOT NULL, 
+    [Puerto] NVARCHAR(50) NULL
+)
